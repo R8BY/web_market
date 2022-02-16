@@ -1,0 +1,26 @@
+.NavBar {
+  background-color: #fff;
+  height: 50px;
+
+  .NavBar__container {
+
+    ul {
+      display: flex;
+      padding-top: 15px;
+      li + li {
+        margin-left: 32px;
+      }
+
+      li {
+        margin-left: 16px;
+        list-style: none;
+
+        a {
+          text-transform: uppercase;
+          text-decoration: none;
+          color: #8D8D8D;
+        }
+      }
+    }
+  }
+}
