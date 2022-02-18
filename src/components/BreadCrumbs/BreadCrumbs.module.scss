@@ -1,0 +1,12 @@
+nav{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+ul{
+  display: flex;
+  justify-content: flex-start;
+}
+li+li{
+  margin-left: 16px;
+}

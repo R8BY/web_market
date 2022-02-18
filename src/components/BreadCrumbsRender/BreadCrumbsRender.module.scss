@@ -1,0 +1,16 @@
+.bread{
+  margin-top: 13px;
+  ul{
+    display: flex;
+    justify-content: flex-start;
+  }
+  li+li{
+    margin-left: 16px;
+  }
+  a{
+    color: #2F80ED;
+  }
+  a:focus, a:hover{
+    color: #4F4F4F;
+  }
+}

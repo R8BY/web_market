@@ -6,6 +6,15 @@
     font-size: 16px;
 }
 
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
 body{
     background-color: #D9D9D9;
 }
