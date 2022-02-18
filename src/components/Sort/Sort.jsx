@@ -5,9 +5,7 @@ const Sort = () => {
     return (
         <div>
             <span>Sort By</span>
-            <select
-                className={classes.sortSelect}>
-                <option value disabled selected>Sort Items</option>
+            <select className={classes.sortSelect}>
                 <option>Price</option>
                 <option>Data</option>
             </select>

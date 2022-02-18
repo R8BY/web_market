@@ -1,0 +1,19 @@
+.pagination {
+  display: flex;
+  justify-content: flex-start;
+
+  a {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    color: black;
+  }
+
+  a + a {
+    margin-left: 15px;
+  }
+
+  a:focus, a:hover{
+    color: #BDBDBD;
+  }
+}

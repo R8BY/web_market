@@ -2,9 +2,8 @@ import {useEffect, useState} from "react";
 import './App.css';
 import {Header} from "./components/Header/Header";
 import {NavBar} from "./components/NavBar";
-import {RenderItems} from "./components/RenderItems";
-import {TopBlock} from "./components/TopBlock";
 import {BreadCrumbsRender} from "./components/BreadCrumbsRender";
+import {ItemPage} from "./Pages";
 
 function App() {
 
@@ -31,9 +30,7 @@ function App() {
                 <Header/>
                 {items ? <NavBar items={items}/> : null}
                 {items ? <BreadCrumbsRender items={items}/> : null}
-                {items ? <TopBlock/> : null}
-                {items ? <RenderItems items={items}/> : null}
-                <TopBlock/>
+                <ItemPage items={items}/>
             </div>
         </div>
     );

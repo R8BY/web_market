@@ -1,11 +1,13 @@
 import React from 'react';
 import classes from './Pagination.module.scss'
-import ReactPaginate from "react-paginate";
 
 const Pagination = () => {
     return (
-        <div>
-            <button>asd</button>
+        <div className={classes.pagination}>
+            <a href="#">{"<"}</a>
+            <a href="#">{"1"}</a>
+            <a href="#">{"2"}</a>
+            <a href="#">{">"}</a>
         </div>
     );
 };
