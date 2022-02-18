@@ -3,6 +3,7 @@ import './App.css';
 import {Header} from "./components/Header/Header";
 import {NavBar} from "./components/NavBar";
 import {ItemsInfo} from "./components/ItemsInfo";
+import {RenderItems} from "./components/RenderItems";
 
 function App() {
 
@@ -28,7 +29,8 @@ function App() {
             <div className="container">
                 <Header/>
                 {items ? <NavBar items={items}/> : null}
-                {items ? <ItemsInfo items={items}/> : null}
+                {items ? <RenderItems items={items}/> : null}
+                {/*{items ? <ItemsInfo items={items}/> : null}*/}
             </div>
         </div>
     );

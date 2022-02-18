@@ -7,10 +7,10 @@ const NavBar = ({items}) => {
             <div className={classes.NavBar__container}>
                 <nav className={classes.NavBar}>
                     <ul>
-                        <li><a href="#">{items.nav[0].text}</a></li>
-                        <li><a href="#">{items.nav[1].text}</a></li>
-                        <li><a href="#">{items.nav[2].text}</a></li>
-                        <li><a href="#">{items.stock[3].title}</a></li>
+                        {items.nav.map((el) =>
+                            <li key={el.text}>
+                                <a href={el.href}>{el.text}</a>
+                            </li>)}
                     </ul>
                 </nav>
             </div>
