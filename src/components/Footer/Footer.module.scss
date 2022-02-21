@@ -3,11 +3,58 @@ footer{
   width: 1140px;
   height: 243px;
   float: right;
-  margin-top:23px;
-  margin-bottom: 37px;
+  margin-top: 23px;
   .footer_inner{
+    padding: 39px 13px 24px 19px;
+    display: flex;
+    .logo{
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 21px;
+      color: #333333;
+      padding-bottom: 18px;
+    }
     span{
       display: block;
+      font-size: 14px;
+      color: #4F4F4F;
+    }
+    .compAdress{
+      display: flex;
+      padding-bottom: 11px;
+      span{
+        width: 226px;
+        padding-left: 10px;
+      }
+    }
+
+    .tel{
+      display: flex;
+      span{
+        width: 226px;
+        padding-left: 10px;
+      }
+    }
+    .redirect{
+      padding-top: 20px;
+      a+a{
+        margin-left: 5px;
+      }
+      img{
+        width: 30px;
+        height: 30px;
+      }
+    }
+    .infoText{
+      width: 561px;
+      display: flex;
+      p{
+        font-weight: normal;
+        font-size: 18px;
+        color: #4F4F4F;
+        margin: auto 0;
+        padding-left: 20px;
+      }
     }
   }
 }
