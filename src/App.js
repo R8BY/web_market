@@ -4,6 +4,7 @@ import {Header} from "./components/Header/Header";
 import {NavBar} from "./components/NavBar";
 import {BreadCrumbsRender} from "./components/BreadCrumbsRender";
 import {ItemPage} from "./Pages";
+import {Footer} from "./components/Footer/Footer";
 
 function App() {
 
@@ -30,7 +31,8 @@ function App() {
                 <Header/>
                 {items ? <NavBar items={items}/> : null}
                 {items ? <BreadCrumbsRender items={items}/> : null}
-                <ItemPage items={items}/>
+                {items ? <ItemPage items={items}/> : null}
+                <Footer/>
             </div>
         </div>
     );

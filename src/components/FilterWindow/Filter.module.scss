@@ -1,24 +1,51 @@
 .form {
   float: left;
-  min-height: 100px;
+  min-height: 500px;
   background-color: #fff;
   margin-top: 25px;
   width: 270px;
 
   .inner {
-    .line{
+    padding: 15px;
+
+    .line {
       border: 1px solid #BDBDBD;
       margin-top: 16px;
+      margin-bottom: 15px;
     }
 
-    label{
+    label {
       margin-left: 10px;
+    }
+
+    input {
+      margin-top: 11px;
+      margin-bottom: 11px;
+      border: 1px solid #BDBDBD;
+      padding-left: 15px;
     }
 
     span {
       color: #333333;
-      font-weight: 500;
+      font-weight: normal;
+    }
+
+    .thirdParams {
+      .inlineParams {
+        display: flex;
+        justify-content: space-between;
+      }
+      input {
+        width: 112px;
+        height: 35px;
+      }
+    }
+
+    .fourthParams{
+      input{
+        width: 238px;
+        height: 35px;
+      }
     }
   }
-
 }
