@@ -7,7 +7,7 @@ import {InfoComp} from "../components/InfoComp";
 const ItemPage = ({items}) => {
     return (
         <div>
-            {items ? <Filter items={items}/> : null}
+            {items && <Filter items={items}/>}
             {items ? <TopBlock/> : null}
             {items ? <RenderItems items={items}/> : null}
             {items ? <TopBlock/> : null}
